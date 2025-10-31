@@ -30,8 +30,8 @@ The data is visible and functional in both API tools (Postman) and web browsers.
 
 | Description | Screenshot |
 | :--- | :--- |
-| **Testing in Postman ** | ![Postman GET Request](./images/image_6ebcbb.jpg) |
-| **Viewing in Browser ** | ![Browser JSON Output](./images/image_6ebc85.png) |
+| Testing in Postman  | ![Postman GET Request](./images/image_6ebcbb.jpg) |
+| Viewing in Browser  | ![Browser JSON Output](./images/image_6ebc85.png) |
 
 ## 🛠️ 3. API Endpoints Overview
 
