@@ -1,4 +1,4 @@
-# 👤 User CRUD API
+# 👤 User CRUD API 
 
 A simple RESTful API for managing user records (CRUD operations), built using **Node.js** and **Express.js**.
 
@@ -24,7 +24,16 @@ Follow these steps in your terminal to get the project running.
     ```
     The API will be available at **`http://localhost:3000`**.
 
-## 🛠️ 2. API Endpoints Overview
+## 🚀 2. Verification
+
+The data is visible and functional in both API tools (Postman) and web browsers.
+
+| Description | Screenshot |
+| :--- | :--- |
+| **Testing in Postman (GET /)** | ![Postman GET Request](./images/image_6ebcbb.jpg) |
+| **Viewing in Browser (GET /)** | ![Browser JSON Output](./images/image_6ebc85.png) |
+
+## 🛠️ 3. API Endpoints Overview
 
 All operations are accessed directly from the base URL or with an ID parameter, as the user router is mounted at the root (`/`).
 
@@ -35,7 +44,7 @@ All operations are accessed directly from the base URL or with an ID parameter, 
 | **PUT** | `/:id` | **UPDATE:** Modify an existing user's details by their ID. | `200 OK` |
 | **DELETE** | `/:id` | **DELETE:** Remove a user record by their ID. | `204 No Content` |
 
-## 🧪 3. Testing the Endpoints (Postman Examples)
+## 🧪 4. Testing the Endpoints (Postman Examples)
 
 ### A. Create a User (POST)
 
@@ -56,7 +65,6 @@ All operations are accessed directly from the base URL or with an ID parameter, 
 
 ### C. Update a User (PUT)
 
-* *Assumes the created user received `id: 1`.*
 * **Method:** `PUT`
 * **URL:** `http://localhost:3000/1`
 * **Body (raw JSON):**
@@ -72,7 +80,7 @@ All operations are accessed directly from the base URL or with an ID parameter, 
 * **Method:** `DELETE`
 * **URL:** `http://localhost:3000/1`
 
-## 🛑 4. Validation & Error Responses
+## 🛑 5. Validation & Error Responses
 
 | Status Code | Message | Description |
 | :--- | :--- | :--- |
